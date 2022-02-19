@@ -1,7 +1,15 @@
 use std::fs;
+use std::process::exit;
 
 fn main() {
-    let file = fs::read_to_string("./courses.txt").unwrap();
+    let file_name = "courses.txt";
+    let file = match fs::read_to_string(file_name) {
+        Ok(t) => t,
+        Err(_) => {
+            eprintln!("{file_name} does not exist");
+            exit(1);
+        }
+    };
     let mut courses = vec![String::new()];
     let mut current_index = 0;
     for (i, line) in file.split("\n").into_iter().enumerate() {
