@@ -1,0 +1,156 @@
+JZL100535C	L00-36y	Jezyk angielski / C1.1	(pn) 11:15-12:45
+208 (H-4)
+(pt) 09:15-10:45
+209 (H-4)
+Mgr Wiszniowska Zuzanna
+18	60	Tak	I
+JZL100535C	L00-36k	Jezyk angielski / C1.1	(cz) 07:30-09:00
+208 (H-4)
+(wt) 07:30-09:00
+134 (L-1)
+Mgr Krawczenko Walentyna
+18	60	Tak	I
+JZL100535C	L00-36n	Jezyk angielski / C1.1	(pt) 11:15-12:45
+413 (H-4)
+(sr) 09:15-10:45
+208 (H-4)
+Mgr Mazurkiewicz Alicja
+18	60	Tak	I
+JZL100535C	L00-36m	Jezyk angielski / C1.1	(cz) 11:15-12:45
+213 (H-4)
+(wt) 11:15-12:45
+203 (H-4)
+Mgr Mazurkiewicz Alicja
+18	60	Tak	I
+JZL100535C	L00-36i	Jezyk angielski / C1.1	(cz) 15:15-16:45
+112 (H-4)
+(wt) 15:15-16:45
+213 (H-4)
+Mgr Koszutska Izabela
+18	60	Tak	I
+JZL100535C	L00-36h	Jezyk angielski / C1.1	(pn) 09:15-10:45
+308 (H-4)
+(sr) 09:15-10:45
+515 (H-4)
+Mgr Kondro Magdalena
+18	60	Tak	I
+JZL100535C	L00-36w	Jezyk angielski / C1.1	(cz) 07:30-09:00
+112 (H-4)
+(pn) 07:30-09:00
+317 (H-4)
+Dr Wieckowska Aleksandra
+18	60	Tak	I
+JZL100535C	L00-36l	Jezyk angielski / C1.1	(cz) 09:15-10:45
+208 (H-4)
+(wt) 09:15-10:45
+134 (L-1)
+Mgr Krawczenko Walentyna
+18	60	Tak	I
+JZL100535C	L00-36s	Jezyk angielski / C1.1	(cz) 17:05-18:35
+512 (H-4)
+(pn) 17:05-18:35
+314 (H-4)
+Mgr Rozwadowski Dominik
+18	60	Tak	I
+JZL100535C	L00-36aa	Jezyk angielski / C1.1	(cz) 13:15-14:45
+814 (D-20)
+(pn) 13:15-14:45
+213 (H-4)
+Mgr Wojcieszyn Adriana
+18	60	Tak	I
+JZL100535C	L00-36q	Jezyk angielski / C1.1	(pt) 09:15-10:45
+112 (H-4)
+(wt) 09:15-10:45
+112 (H-4)
+Mgr Morawska Joanna
+18	60	Tak	I
+JZL100535C	L00-36c	Jezyk angielski / C1.1	(cz) 11:15-12:45
+814 (D-20)
+(sr) 07:30-09:00
+209 (H-4)
+Mgr Derechowski Janusz
+18	60	Tak	I
+JZL100535C	L00-36b	Jezyk angielski / C1.1	(pn) 17:05-18:35
+134 (L-1)
+(sr) 09:15-10:45
+209 (H-4)
+Mgr Derechowski Janusz
+18	60	Tak	I
+JZL100535C	L00-36f	Jezyk angielski / C1.1	(cz) 17:05-18:35
+210 (H-4)
+(wt) 09:15-10:45
+210 (H-4)
+Mgr Kasprzak Renata
+18	60	Tak	I
+JZL100535C	L00-36v	Jezyk angielski / C1.1	(pn) 18:45-20:15
+512 (H-4)
+(sr) 18:45-20:15
+209 (H-4)
+Mgr Trzyna Lukasz
+18	60	Tak	I
+JZL100535C	L00-36o	Jezyk angielski / C1.1	(pt) 13:15-14:45
+112 (H-4)
+(sr) 11:15-12:45
+208 (H-4)
+Mgr Mazurkiewicz Alicja
+18	60	Tak	I
+JZL100535C	L00-36d	Jezyk angielski / C1.1	(pt) 13:15-14:45
+201 (H-4)
+(wt) 07:30-09:00
+317 (H-4)
+Mgr Gierczak-Bujak Aleksandra
+18	60	Tak	I
+JZL100535C	L00-36x	Jezyk angielski / C1.1	(cz) 09:15-10:45
+112 (H-4)
+(pn) 09:15-10:45
+317 (H-4)
+Dr Wieckowska Aleksandra
+18	60	Tak	I
+JZL100535C	L00-36e	Jezyk angielski / C1.1	(pt) 15:15-16:45
+201 (H-4)
+(wt) 09:15-10:45
+317 (H-4)
+Mgr Gierczak-Bujak Aleksandra
+18	60	Tak	I
+JZL100535C	L00-36a	Jezyk angielski / C1.1	(pn) 15:15-16:45
+501 (H-4)
+(sr) 13:15-14:45
+134 (L-1)
+Mgr Koszutska Izabela
+18	60	Tak	I
+JZL100535C	L00-36z	Jezyk angielski / C1.1	(pt) 11:15-12:45
+209 (H-4)
+(sr) 15:15-16:45
+213 (H-4)
+Mgr Wiszniowska Zuzanna
+18	60	Tak	I
+JZL100535C	L00-36j	Jezyk angielski / C1.1	(cz) 17:05-18:35
+112 (H-4)
+(wt) 17:05-18:35
+213 (H-4)
+Mgr Koszutska Izabela
+18	60	Tak	I
+JZL100535C	L00-36u	Jezyk angielski / C1.1	(pn) 17:05-18:35
+512 (H-4)
+(sr) 17:05-18:35
+209 (H-4)
+Mgr Trzyna Lukasz
+18	60	Tak	I
+JZL100535C	L00-36g	Jezyk angielski / C1.1	(pn) 07:30-09:00
+308 (H-4)
+(sr) 07:30-09:00
+515 (H-4)
+Mgr Kondro Magdalena
+18	60	Tak	I
+JZL100535C	L00-36p	Jezyk angielski / C1.1	(pt) 07:30-09:00
+112 (H-4)
+(wt) 07:30-09:00
+112 (H-4)
+Mgr Morawska Joanna
+18	60	Tak	I
+JZL100535C	L00-36ab	Jezyk angielski / C1.1	(cz) 15:15-16:45
+814 (D-20)
+(wt) 13:15-14:45
+112 (H-4)
+Mgr Wojcieszyn Adriana
+18	60	Tak	I
