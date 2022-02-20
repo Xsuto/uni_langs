@@ -13,7 +13,7 @@ fn main() {
     let mut courses = vec![String::new()];
     let mut current_index = 0;
     for (i, line) in file.split("\n").into_iter().enumerate() {
-        if i % 6 == 0 && i > 6 {
+        if i % 6 == 0 && i >= 6 {
             courses.push(String::new());
             current_index += 1;
         }
