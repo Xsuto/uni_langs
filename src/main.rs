@@ -1,5 +1,5 @@
 use std::fs;
-use std::io::{Read, stdin};
+use std::io::stdin;
 use std::process::exit;
 
 fn find_course(criteria: &[&str], courses: &[String]) {
@@ -16,12 +16,13 @@ fn find_course(criteria: &[&str], courses: &[String]) {
 fn format_into_courses_vector(file_as_string: String) -> Vec<String> {
     let mut courses = vec![String::new()];
     let mut current_index = 0;
+    let size_of_course = 5;
     for (i, line) in file_as_string.split('\n').into_iter().enumerate() {
-        if i % 6 == 0 && i >= 6 {
+        if i % size_of_course == 0 && i >= size_of_course {
             courses.push(String::new());
             current_index += 1;
         }
-        if i % 6 != 0 {
+        if i % size_of_course != 0 {
             courses[current_index].push(' ');
         }
         courses[current_index].push_str(line);
