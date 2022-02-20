@@ -31,7 +31,7 @@ fn format_into_courses_vector(file_as_string: String) -> Vec<String> {
 }
 
 fn main() {
-    let file_name = "courses.txt";
+    let file_name = "swimming.txt";
     let file = match fs::read_to_string(file_name) {
         Ok(t) => t,
         Err(_) => {
