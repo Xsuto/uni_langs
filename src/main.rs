@@ -1,4 +1,5 @@
 use std::fs;
+use std::io::{Read, stdin};
 use std::process::exit;
 
 fn find_course(criteria: &[&str], courses: &[String]) {
@@ -38,6 +39,17 @@ fn main() {
         }
     };
     let courses = format_into_courses_vector(file);
-    println!("Kod kursu Kod grupy nazwa termin Prowadzacy Miejsca zzu stajonarne stopien");
-    find_course(&["(wt)", "(pt)"], &courses);
+    let mut input = String::new();
+    loop {
+        input = "".to_owned();
+        stdin().read_line(&mut input).expect("Failed to read user input");
+        input = input.trim().to_owned();
+        println!("Kod kursu Kod grupy nazwa termin Prowadzacy Miejsca zzu stajonarne stopien");
+        let mut criteria = vec![];
+        for it in input.split(',') {
+            criteria.push(it);
+        }
+        println!("{criteria:?}");
+        find_course(&criteria, &courses);
+    }
 }
