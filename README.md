@@ -7,4 +7,7 @@ swimming.txt as courses.txt or to 6 if you're using langs.txt Then run cargo run
 
 # How to change dataset
 
-Rename courses.txt to its original name and then rename dataset for example langs.txt to courses.txt
+Rename courses.txt to its original name and then rename dataset for example langs.txt to courses.txt and change value of
+size_of_course variable in format_into_courses_vector function <br>
+5 for swimming.txt <br>
+6 for langs.txt <br>
