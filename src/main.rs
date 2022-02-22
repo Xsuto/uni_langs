@@ -1,6 +1,35 @@
 use std::fs;
 use std::io::stdin;
 use std::process::exit;
+use std::sync::{Arc, Mutex};
+use std::thread::sleep;
+use std::time::{Duration, Instant};
+
+struct IdleProgramCheck {
+    start_time: Arc<Mutex<Instant>>,
+}
+
+impl IdleProgramCheck {
+    fn new() -> Self {
+        Self {
+            start_time: Arc::new(Mutex::new(Instant::now()))
+        }
+    }
+    fn start_timer(&self, allowed_idle_time_in_mins: u64) {
+        let time = self.start_time.clone();
+        std::thread::spawn(move || {
+            loop {
+                if time.lock().unwrap().elapsed() >= Duration::from_secs(60 * allowed_idle_time_in_mins) {
+                    exit(0);
+                }
+                sleep(Duration::from_secs(1));
+            }
+        });
+    }
+    fn reset_timer(&mut self) {
+        *self.start_time.lock().unwrap() = Instant::now();
+    }
+}
 
 fn find_course(criteria: &[&str], courses: &[String]) {
     for it in courses {
@@ -13,10 +42,10 @@ fn find_course(criteria: &[&str], courses: &[String]) {
     }
 }
 
-fn format_into_courses_vector(file_as_string: String) -> Vec<String> {
+fn format_into_courses_vector(file_as_string: &str) -> Vec<String> {
     let mut courses = vec![String::new()];
     let mut current_index = 0;
-    let size_of_course = 5;
+    let size_of_course = 6;
     for (i, line) in file_as_string.split('\n').into_iter().enumerate() {
         if i % size_of_course == 0 && i >= size_of_course {
             courses.push(String::new());
@@ -27,11 +56,11 @@ fn format_into_courses_vector(file_as_string: String) -> Vec<String> {
         }
         courses[current_index].push_str(line);
     }
-    return courses;
+    courses
 }
 
 fn main() {
-    let file_name = "swimming.txt";
+    let file_name = "langs.txt";
     let file = match fs::read_to_string(file_name) {
         Ok(t) => t,
         Err(_) => {
@@ -39,10 +68,12 @@ fn main() {
             exit(1);
         }
     };
-    let courses = format_into_courses_vector(file);
+    let courses = format_into_courses_vector(&file);
     let mut input = String::new();
+    let mut checker = IdleProgramCheck::new();
+    checker.start_timer(10);
+
     loop {
-        input = "".to_owned();
         stdin().read_line(&mut input).expect("Failed to read user input");
         input = input.trim().to_owned();
         println!("Kod kursu Kod grupy nazwa termin Prowadzacy Miejsca zzu stajonarne stopien");
@@ -52,5 +83,7 @@ fn main() {
         }
         println!("{criteria:?}");
         find_course(&criteria, &courses);
+        checker.reset_timer();
+        input.clear();
     }
 }
