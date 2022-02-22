@@ -5,11 +5,11 @@ use std::sync::{Arc, Mutex};
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 
-struct IdleProgramCheck {
+struct IdleProgramChecker {
     start_time: Arc<Mutex<Instant>>,
 }
 
-impl IdleProgramCheck {
+impl IdleProgramChecker {
     fn new() -> Self {
         Self {
             start_time: Arc::new(Mutex::new(Instant::now()))
@@ -70,7 +70,7 @@ fn main() {
     };
     let courses = format_into_courses_vector(&file);
     let mut input = String::new();
-    let mut checker = IdleProgramCheck::new();
+    let mut checker = IdleProgramChecker::new();
     checker.start_timer(10);
 
     loop {
