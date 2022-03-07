@@ -1,0 +1,144 @@
+JZL100536C 	L00-27u 	Jezyk angielski / C1.2 	(cz) 17:05-18:35
+314 (H-4)
+(sr) 15:15-16:45
+308 (H-4)
+	Mgr Tyszkiewicz Anna
+	3 	60	Tak 	I
+JZL100536C 	L00-27j 	Jezyk angielski / C1.2 	(pt) 07:30-09:00
+134 (L-1)
+(sr) 17:05-18:35
+112 (H-4)
+	Mgr Kasprzak Renata
+Mgr Wolf John
+	7 	60	Tak 	I
+JZL100536C 	L00-27l 	Jezyk angielski / C1.2 	(cz) 11:15-12:45
+208 (H-4)
+(wt) 13:15-14:45
+203 (H-4)
+	Mgr Kondro Magdalena
+	1 	60	Tak 	I
+JZL100536C 	L00-27r 	Jezyk angielski / C1.2 	(pt) 09:15-10:45
+134 (L-1)
+(sr) 13:15-14:45
+203 (H-4)
+	Mgr Tyszkiewicz Anna
+Mgr Wolf John
+	9 	60	Tak 	I
+JZL100536C 	L00-27k 	Jezyk angielski / C1.2 	(cz) 18:45-20:15
+210 (H-4)
+(wt) 15:15-16:45
+512 (H-4)
+	Mgr Kasprzak Renata
+Mgr Wolf John
+	6 	60	Tak 	I
+JZL100536C 	L00-27n 	Jezyk angielski / C1.2 	(cz) 15:15-16:45
+313 (H-4)
+(pn) 18:45-20:15
+201 (H-4)
+	Mgr Mirowska Agnieszka
+	13 	60	Tak 	I
+JZL100536C 	L00-27o 	Jezyk angielski / C1.2 	(pt) 11:15-12:45
+112 (H-4)
+(wt) 11:15-12:45
+112 (H-4)
+	Mgr Morawska Joanna
+	9 	60	Tak 	I
+JZL100536C 	L00-27v 	Jezyk angielski / C1.2 	(pn) 15:15-16:45
+203 (H-4)
+(sr) 15:15-16:45
+210 (H-4)
+	Mgr Brzózka Aleksander
+	7 	60	Tak 	I
+JZL100536C 	L00-27e 	Jezyk angielski / C1.2 	(pt) 15:15-16:45
+314 (H-4)
+(sr) 15:15-16:45
+203 (H-4)
+	Fyall Michael
+Mgr Brzózka Aleksander
+	6 	60	Tak 	I
+JZL100536C 	L00-27c 	Jezyk angielski / C1.2 	(pn) 09:15-10:45
+210 (H-4)
+(sr) 17:05-18:35
+210 (H-4)
+	Fyall Michael
+Mgr Brzózka Aleksander
+	2 	60	Tak 	I
+JZL100536C 	L00-27i 	Jezyk angielski / C1.2 	(cz) 07:30-09:00
+201 (H-4)
+(wt) 11:15-12:45
+210 (H-4)
+	Mgr Kasprzak Renata
+Mgr Wolf John
+	8 	60	Tak 	I
+JZL100536C 	L00-27m 	Jezyk angielski / C1.2 	(cz) 13:15-14:45
+208 (H-4)
+(wt) 15:15-16:45
+203 (H-4)
+	Mgr Kondro Magdalena
+	0 	60	Tak 	I
+JZL100536C 	L00-27s 	Jezyk angielski / C1.2 	(pn) 17:05-18:35
+208 (H-4)
+(sr) 17:05-18:35
+308 (H-4)
+	Mgr Tyszkiewicz Anna
+	11 	60	Tak 	I
+JZL100536C 	L00-27h 	Jezyk angielski / C1.2 	(cz) 11:15-12:45
+314 (H-4)
+(sr) 11:15-12:45
+134 (L-1)
+	Fyall Michael
+Mgr Morawska Joanna
+	0 	60	Tak 	I
+JZL100536C 	L00-27a 	Jezyk angielski / C1.2 	(cz) 09:15-10:45
+314 (H-4)
+(pn) 17:05-18:35
+203 (H-4)
+	Fyall Michael
+Mgr Brzózka Aleksander
+	9 	60	Tak 	I
+JZL100536C 	L00-27g 	Jezyk angielski / C1.2 	(cz) 09:15-10:45
+814 (D-20)
+(pn) 15:15-16:45
+134 (L-1)
+	Mgr Derechowski Janusz
+	13 	60	Tak 	I
+	JZL100536C 	L00-27t 	Jezyk angielski / C1.2 	(cz) 15:15-16:45
+    314 (H-4)
+    (wt) 15:15-16:45
+    209 (H-4)
+    	Mgr Tyszkiewicz Anna
+    	6 	60	Tak 	I
+    JZL100536C 	L00-27f 	Jezyk angielski / C1.2 	(cz) 07:30-09:00
+    814 (D-20)
+    (pn) 13:15-14:45
+    134 (L-1)
+    	Mgr Derechowski Janusz
+    	12 	60	Tak 	I
+    JZL100536C 	L00-27q 	Jezyk angielski / C1.2 	(cz) 11:15-12:45
+    201 (H-4)
+    (pn) 15:15-16:45
+    208 (H-4)
+    	Mgr Tyszkiewicz Anna
+    Mgr Wolf John
+    	7 	60	Tak 	I
+    JZL100536C 	L00-27p 	Jezyk angielski / C1.2 	(cz) 09:15-10:45
+    201 (H-4)
+    (pn) 13:15-14:45
+    208 (H-4)
+    	Mgr Tyszkiewicz Anna
+    Mgr Wolf John
+    	1 	60	Tak 	I
+    JZL100536C 	L00-27d 	Jezyk angielski / C1.2 	(pn) 11:15-12:45
+    210 (H-4)
+    (pt) 13:15-14:45
+    314 (H-4)
+    	Fyall Michael
+    Mgr Brzózka Aleksander
+    	0 	60	Tak 	I
+    JZL100536C 	L00-27b 	Jezyk angielski / C1.2 	(pn) 18:45-20:15
+    203 (H-4)
+    (sr) 17:05-18:35
+    203 (H-4)
+    	Fyall Michael
+    Mgr Brzózka Aleksander
+    	1 	60	Tak 	I
