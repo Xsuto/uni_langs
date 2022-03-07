@@ -5,6 +5,18 @@ use std::sync::{Arc, Mutex};
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 
+const FILE: &str = include_str!("../langs.txt");
+
+trait FromMins {
+    fn from_mins(mins: u64) -> Duration;
+}
+
+impl FromMins for Duration {
+    fn from_mins(mins: u64) -> Duration {
+        Duration::from_secs(60 * mins)
+    }
+}
+
 struct IdleProgramChecker {
     start_time: Arc<Mutex<Instant>>,
 }
@@ -19,7 +31,7 @@ impl IdleProgramChecker {
         let time = self.start_time.clone();
         std::thread::spawn(move || {
             loop {
-                if time.lock().unwrap().elapsed() >= Duration::from_secs(60 * allowed_idle_time_in_mins) {
+                if time.lock().unwrap().elapsed() >= Duration::from_mins(allowed_idle_time_in_mins) {
                     exit(0);
                 }
                 sleep(Duration::from_secs(1));
@@ -60,15 +72,7 @@ fn format_into_courses_vector(file_as_string: &str) -> Vec<String> {
 }
 
 fn main() {
-    let file_name = "langs.txt";
-    let file = match fs::read_to_string(file_name) {
-        Ok(t) => t,
-        Err(_) => {
-            eprintln!("{file_name} does not exist");
-            exit(1);
-        }
-    };
-    let courses = format_into_courses_vector(&file);
+    let courses = format_into_courses_vector(FILE);
     let mut input = String::new();
     let mut checker = IdleProgramChecker::new();
     checker.start_timer(10);
@@ -81,7 +85,6 @@ fn main() {
         for it in input.split(',') {
             criteria.push(it);
         }
-        println!("{criteria:?}");
         find_course(&criteria, &courses);
         checker.reset_timer();
         input.clear();
