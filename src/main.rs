@@ -6,6 +6,7 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 
 const FILE: &str = include_str!("../langs.txt");
+const COURSE_SIZE: usize = 6;
 
 trait FromMins {
     fn from_mins(mins: u64) -> Duration;
@@ -57,13 +58,12 @@ fn find_course(criteria: &[&str], courses: &[String]) {
 fn format_into_courses_vector(file_as_string: &str) -> Vec<String> {
     let mut courses = vec![String::new()];
     let mut current_index = 0;
-    let size_of_course = 6;
     for (i, line) in file_as_string.split('\n').into_iter().enumerate() {
-        if i % size_of_course == 0 && i >= size_of_course {
+        if i % COURSE_SIZE == 0 && i >= COURSE_SIZE {
             courses.push(String::new());
             current_index += 1;
         }
-        if i % size_of_course != 0 {
+        if i % COURSE_SIZE != 0 {
             courses[current_index].push(' ');
         }
         courses[current_index].push_str(line);
