@@ -1,12 +1,10 @@
-use std::fs;
 use std::io::stdin;
 use std::process::exit;
 use std::sync::{Arc, Mutex};
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 
-const FILE: &str = include_str!("../langs.txt");
-const COURSE_SIZE: usize = 6;
+const FILE: &str = include_str!("../swimming.txt");
 
 trait FromMins {
     fn from_mins(mins: u64) -> Duration;
@@ -58,12 +56,11 @@ fn find_course(criteria: &[&str], courses: &[String]) {
 fn format_into_courses_vector(file_as_string: &str) -> Vec<String> {
     let mut courses = vec![String::new()];
     let mut current_index = 0;
-    for (i, line) in file_as_string.split('\n').into_iter().enumerate() {
-        if i % COURSE_SIZE == 0 && i >= COURSE_SIZE {
+    for (i, line) in file_as_string.split('\n').enumerate() {
+        if i != 0 && (line.contains("WFW") || line.contains("JZL")) {
             courses.push(String::new());
             current_index += 1;
-        }
-        if i % COURSE_SIZE != 0 {
+        } else {
             courses[current_index].push(' ');
         }
         courses[current_index].push_str(line);
